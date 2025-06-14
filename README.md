@@ -1,9 +1,2 @@
-## ⚙️ Tech Stack
-
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **GitHub & Vercel** – Deployment
+A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and experience as a software developer. Features a clean, responsive design and smooth user experience.
 
