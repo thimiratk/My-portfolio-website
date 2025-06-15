@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import profileImage from "../assets/profile.jpg"; // Adjust the path as necessary
 
 export const HeroSection = () => {
   return (
@@ -7,20 +8,25 @@ export const HeroSection = () => {
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
+        <div className="space-y-6 flex flex-col items-center">
+          {/* Profile Image */}
+          <img
+            src={profileImage}
+            alt="Thimira Kodithuwakku"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary shadow-lg opacity-0 animate-fade-in"
+          />
+
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Thimira
+              {" "}Thimira
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Kodithuwakku
+              {" "}Kodithuwakku
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I'm a software developer with a strong interest in full-stack web development and machine learning. I enjoy building smart, scalable applications that solve real-world problems.
           </p>
 
