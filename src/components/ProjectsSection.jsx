@@ -6,7 +6,7 @@ const projects = [
     title: "Simple Blockchain",
     description: "A minimal blockchain implementation in JavaScript to demonstrate core concepts like blocks, hashing and chain validation. ",
     image: "projects/project1.avif",
-    tags: ["JavaScript"],
+    tags: ["JavaScript", "Blockchain"],
     demoUrl: "#",
     githubUrl: "https://github.com/thimiratk/Simple-Blockchain-w-JS.git",
   },
