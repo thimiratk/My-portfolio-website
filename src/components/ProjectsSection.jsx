@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Simple Todo List",
-    description: "A simple todo list application built with HTML, CSS, and JavaScript.",
-    image: "projects/project1.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Simple Blockchain",
+    description: "A minimal blockchain implementation in JavaScript to demonstrate core concepts like blocks, hashing and chain validation. ",
+    image: "projects/project1.avif",
+    tags: ["JavaScript"],
     demoUrl: "#",
-    githubUrl: "https://github.com/thimiratk/todo-list.git",
+    githubUrl: "https://github.com/thimiratk/Simple-Blockchain-w-JS.git",
   },
   {
     id: 2,
